@@ -1,0 +1,175 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+
+   <meta charset="UTF-8">
+   <link rel="stylesheet" href="1.css">
+  <title>Željeznicka stanica </title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  <link rel="stylesheet" type="text/css" href="1.css" />
+  
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#datepicker" ).datepicker();
+  } );
+  </script>
+  
+<script type="text/javascript">
+timeID = null;
+timeRunning = false;
+var current = "";
+function stop(){
+    if(timeRunning){
+    clearTimeout(timeID);
+    timeRunning = false;
+    }
+}
+function time(){
+tick = new Date();
+hours = tick.getHours();
+minutes = tick.getMinutes();
+seconds = tick.getSeconds();
+current = "" + hours + '';
+current += ((minutes < 10) ? ":0" : ":") + minutes;
+current += ((seconds < 10) ? ":0" : ":") + seconds + " - ";
+month = tick.getMonth();
+date = tick.getDate();
+year = tick.getFullYear();
+day = tick.getDay();
+var days=new Array(" Nedjelja"," Ponedjeljak", " Utorak", " Srijeda", " Èetvrtak", " Petak", " Subota")
+var danutjednu = days[day];
+current +=(danutjednu);
+current +=", "+date+""+".";
+current +=((month<13) ? month+1:month)+ ".";
+current +=year;
+document.getElementById("vrijeme").innerHTML = current;
+timeID = setTimeout("time()",1000);
+timeRunning = true;
+}
+function runClock(){
+stop();
+time();
+}
+</script>
+
+
+
+
+</head>
+
+<body onload="runClock()">
+ 
+  
+  <div class="content_header">   
+ 
+
+ 
+   <form action="/login.php" method="get">    
+ 
+<button class="button"><span> PRIJAVA </span></button>
+
+   </form>
+
+ 
+ 
+   <span button type="button" class="block"><b> ŽELJEZNICKA STANICA
+     
+<span div class="block1">
+
+ <script type="text/javascript">document.write(" <span id='vrijeme' style=' ;  float:left;font-weight:bold; font-size:15px;'></span> ")</script>
+<noscript><p> ;).</noscript>
+</span>
+  
+     </span> 
+	
+  <div class="tekstbox">
+      
+	 
+
+  <p class="alignleft">PROJEKT: REZERVACIJA KARATA ZA VLAK <BR>BORIS ADŽAIP<br>DORIS CRNJAC<br>ANA KORDIC <br></p>
+ 
+  <p class="alignright">TESTNI PODACI  <BR>ADMIN: admin<br>PASSWORD: admin</p>
+</div>
+
+   
+<a href="http://boris1510.epizy.com/vizija.php">POGLEDAJ<input type="submit" value="klikni za VIZIJU"></a>
+  
+
+  
+ 
+  
+  
+<div class="gallery">
+<div class="gallery-image">
+  <img src="http://boris1510.epizy.com/slika.jpg"  />
+  
+<div class="gallery-text">
+
+<div class="card">
+  
+ 
+
+ <h3>Pronadite lokaciju i datum polaska:</h3>
+ 
+</div>
+
+<form action="insert.php" method="post" style="display:inline-flex">
+
+   <select>
+  <option value="zagreb">ZAGREB</option>
+  <option value="skoplje">SKOPLJE</option>
+  <option value="sarajevo">SARAJEVO</option>
+  <option value="ljubljana">LJUBLJANA</option>
+  <option value="split">SPLIT</option>
+  <option value="dubrovnik">DUBROVNIK</option>
+  <option value="osijek">OSIJEK</option>
+  <option value="banjaluka">BANJA LUKA</option>
+  <option value="mostar">MOSTAR</option>
+</select>
+	
+<p><input type="text" id="datepicker" placeholder="Kliknite na Datum"></p>
+  
+  
+    <input type="submit" value="TRA�I">
+</form>
+
+ 
+
+ 
+</div>
+	      
+</div>  
+</div>
+   
+</div>
+</div>
+	  <div class="footer">
+	
+
+ <div class="rezerviraj"> <h1>- REZERVIRAJTE SVOJU KARTU I UÅ½IVAJTE U VOÅ½NJI - <h1>
+ 
+ 
+
+  
+
+ 
+   
+   
+ 
+
+	
+	
+	
+      <p><a href="index.html">HOME</a> |  <a href="index.html">KONTAKT</a> |  <a href="index.html">REZERVIRAJ KARTU</a></p>
+    </div>
+</div>
+
+ </body>
+</html>

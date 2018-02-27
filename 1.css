@@ -1,0 +1,417 @@
+ html
+{ 
+ 
+
+width:100%;
+height: 100%;}
+
+
+*
+{ margin: 0;
+  padding: 0;}
+ select {
+    width: 100%;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+}
+ .textbox
+ 
+{
+	  height:auto;
+   width: 30%;
+   line-height: 1.5em;
+   clear:both;
+ 
+   
+   padding:10px;
+    margin-top:15px;
+    border:3px solid blue;
+
+   
+   background-color:yellow;
+	text-shadow: 1px 0.5px white;
+
+	 
+}
+ 
+.alignleft {
+	
+   width: 30%;
+   line-height: 1.5em;
+
+    border-radius:10px;
+    text-align:center;
+    padding-left:25px;
+    margin-top:15px;
+    border:3px solid blue;
+    background-color:yellow;
+	text-shadow: 1px 0.5px white;
+
+	text-align:left;
+	float: left;
+}
+.alignright {
+	 width: 30%;
+   line-height: 1.5em;
+
+    border-radius:10px;
+    text-align:center;
+    padding-left:25px;
+    margin-top:15px;
+    border:3px solid blue;
+    background-color:yellow;
+	text-shadow: 1px 0.5px white;
+	float: right;
+}
+ 
+ 
+.tekst1
+
+{
+	
+
+}
+ 
+ .content_header
+
+{ 
+ display: block;
+ 
+    margin-bottom:20px;
+	margin-top:20px;
+	width: 100%;
+    text-align:center;
+   
+   
+	  font-family: Facit semibold,sans-serif;
+	
+}
+
+span
+
+{
+	
+	text-align:center;
+}
+
+
+
+ img 
+ 
+ {  
+
+ border-color: red;
+ -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,2)), to(rgba(0,0,0,1)));
+	width: 100%;
+     height: 100%;
+	
+  } 
+
+  
+.gallery {
+	height:100px;
+	margin-top:100px;
+     width:100%;
+     position: relative;
+		padding: 0;
+		margin: 0;
+		text-align: center;
+	}
+
+	.gallery-image{
+		
+border-bottom:3px ;
+	background-color:1E90FF;
+		
+	}
+
+	.gallery-text{
+		
+			margin-top:150px;
+	    position: absolute;
+	    top: 0; right: 0;
+	    bottom: 0; left: 0;
+		margin-bottom:150px;
+	}
+
+	.gallery-text:hover{
+
+opacity:2;
+	}
+
+	.gallery-text h3{
+		
+	    color: white;
+	   }
+	   
+input[type=submit] {
+	
+ 
+	float:;
+	text-shadow:  -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+padding-bottom:6px;
+  background-color: #f4511e;
+ margin-bottom:5px;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+padding-top:10px;
+  width: 170px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+ div.card {
+	 padding-left:23%;
+  width: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}         
+h3
+{
+	opacity:0.9;
+	border-radius:8px;
+	 background:#f4511e;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	  text-shadow: 2px 2px 4px #000000;
+	font-family: Facit semibold,sans-serif;
+	color:red;
+	position:relative;
+	padding:6px;
+	
+	
+	font-size:25px;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -15px;
+  transition: 0.5s;
+}
+
+input:hover span {
+  padding-right: 25px;
+}
+
+input:hover span:after {
+  opacity: 1;
+ 
+}
+input[type=text] {
+	 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	text-align:center;
+	font-size:25px;
+	opacity:0.8;
+	font-family:arial;
+	width:300px;
+	 border: 3px solid orange;
+    border-radius: 5px;
+    padding:6px;
+    box-sizing: border-box;
+	display:
+}
+  
+/* Set height of body and the document to 100% */
+body, html {
+	
+	background: linear-gradient(to bottom right, red, black);
+	 font-family: Facit semibold,sans-serif;
+	 height: 100%;
+    margin: 0;
+    font-family: Arial;
+}
+
+
+.form
+{
+	clear:both
+	width:20%;
+  text-align: center;
+   float:left;
+margin-bottom:3px;s
+	
+	}
+
+	
+	
+
+	
+
+.block {
+	
+	
+	outline:black;
+    text-shadow: 2px 2px 4px #000000;
+	padding:15px;
+    display: block;
+    width: 100%;
+    background-color: #1E90FF;
+   font-family: Facit semibold,sans-serif;
+    font-size: 22px;
+    cursor: pointer;
+    text-align: center;
+	color:white;
+}
+h1
+
+  { 
+  text-shadow: 2px 2px 4px #000000;
+     padding-top:15px;
+    padding-bottom:8px;
+    background-color: #f4511e;
+    
+	 
+	   
+	   color:white;
+	  
+	  font-size:20px;
+      font-family: Facit semibold,sans-serif;
+	  text-align:center;
+	 width: 100%;
+	 
+    
+}
+	
+
+
+.rezerviraj
+
+{
+	text-shadow: 2px 2px 4px #000000;
+	height:80px;
+	 width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+  
+  
+  .footer
+{ 
+right:0;
+left:0;
+
+position:absolute;
+ bottom:0;
+color: black;
+margin-top:0px;
+font-size:10px;
+width: 100%;
+  font-family: 'trebuchet ms', sans-serif;
+  font-size: 100%;
+  height: auto;
+  background: linear-gradient(to bottom right, red, black);
+  text-align: center; 
+
+ }
+
+.footer p
+{ 
+
+line-height: 2.5em;
+}
+
+.footer a
+{ 
+
+  color: #A8AA94;
+ }
+
+.footer a:hover
+{ 
+color: white;
+}
+  
+
+
+a:hover
+{ 
+font-size:20px;
+}
+.button1
+
+{text-shadow: 2px 2px;
+	padding-right:5px;
+	padding-top:22px;
+	font-size: 16px;
+	 color: white;
+	text-shadow:  -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	 float:right;	
+}
+.button3
+
+{
+	
+	
+	opacity:1;
+}
+
+.vizija {
+	margin-top:12px;
+	float:right;
+	text-shadow:  -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+padding-bottom:6px;
+  background-color: #f4511e;
+ margin-bottom:5px;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+padding-top:8px;
+  width: 170px;
+  transition: all 0.5s;
+  cursor: pointer;
+
+}
+
+.button {
+	margin-top:12px;
+	float:right;
+	text-shadow:  -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+padding-bottom:6px;
+  background-color: #f4511e;
+ margin-bottom:5px;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+padding-top:8px;
+  width: 170px;
+  transition: all 0.5s;
+  cursor: pointer;
+
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -15px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+ 
+}
+
+a{text-decoration:none;}
+  
+  
+
+
+
+
